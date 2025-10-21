@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import MainPage from "./components/HelloWorld.vue";
+import MainPage from "./components/MainPage.vue";
 import FavoriteCocktails from "./components/FavoriteCocktails.vue";
-import CocktailsList from "./components/FavoriteCocktails.vue";
+import CocktailsList from "./components/.vue";
 
 
 const router = createRouter({
