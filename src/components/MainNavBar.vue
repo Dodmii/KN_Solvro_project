@@ -24,7 +24,7 @@
             @click="goToMainPage"
             style="text-align: left"
           >
-            Horizon Transport Solutions
+            KN Solvro cocktails manager
           </a>
 
           <div class="collapse navbar-collapse">

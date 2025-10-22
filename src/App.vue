@@ -1,15 +1,16 @@
 <template>
-  <div lang="pl">siema  <router-link >siema</router-link></div>
-
+  <nav-bar></nav-bar>
+  <router-view />
 </template>
 
 <script>
 
+import MainNavBar from './components/MainNavBar.vue';
 
 export default {
   name: 'App',
   components: {
-
+    NavBar: MainNavBar
   }
 }
 </script>
@@ -21,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
